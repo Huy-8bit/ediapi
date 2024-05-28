@@ -24,7 +24,7 @@ namespace EDIAPI.Controllers
 
 
 
-    public class FileUploadController : ControllerBase
+    public class EDIController : ControllerBase
     {
         private const string AccountKey = "X05+r0E5+s8wnQdi/wQl3FCBs6Gb7nplNVtsk/hbSD/OdzmORbXOrchP4wQaLAFWRhfzFRzsGVgy+ASta9CVoA==";
         private const string AccountName = "apiedi";
