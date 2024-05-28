@@ -1373,11 +1373,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/huy8bit/Desktop/DRIVE/JOB/econnect/api/EDI/EDIAPI/EDIAPI.csproj",
+      "projectUniqueName": "/Users/huy8bit/Desktop/DRIVE/JOB/econnect/api/upgit/EDIAPI/EDIAPI.csproj",
       "projectName": "EDIAPI",
-      "projectPath": "/Users/huy8bit/Desktop/DRIVE/JOB/econnect/api/EDI/EDIAPI/EDIAPI.csproj",
+      "projectPath": "/Users/huy8bit/Desktop/DRIVE/JOB/econnect/api/upgit/EDIAPI/EDIAPI.csproj",
       "packagesPath": "/Users/huy8bit/.nuget/packages/",
-      "outputPath": "/Users/huy8bit/Desktop/DRIVE/JOB/econnect/api/EDI/EDIAPI/obj/",
+      "outputPath": "/Users/huy8bit/Desktop/DRIVE/JOB/econnect/api/upgit/EDIAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/huy8bit/.nuget/NuGet/NuGet.Config"

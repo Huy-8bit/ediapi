@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IB01bFcs8os=",
+  "dgSpecHash": "nwRLaVzdE0w=",
   "success": true,
-  "projectFilePath": "/Users/huy8bit/Desktop/DRIVE/JOB/econnect/api/EDI/EDIAPI/EDIAPI.csproj",
+  "projectFilePath": "/Users/huy8bit/Desktop/DRIVE/JOB/econnect/api/upgit/EDIAPI/EDIAPI.csproj",
   "expectedPackageFiles": [
     "/Users/huy8bit/.nuget/packages/azure.core/1.39.0/azure.core.1.39.0.nupkg.sha512",
     "/Users/huy8bit/.nuget/packages/azure.storage.blobs/12.20.0/azure.storage.blobs.12.20.0.nupkg.sha512",

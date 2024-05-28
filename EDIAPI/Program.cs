@@ -32,8 +32,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
-
+app.Run("http://0.0.0.0:5155");
 
 [JsonSerializable(typeof(ResponseMessage))]
 internal partial class AppJsonSerializerContext : JsonSerializerContext
