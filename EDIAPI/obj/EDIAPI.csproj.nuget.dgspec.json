@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/huy8bit/Desktop/DRIVE/JOB/econnect/api/upgit/EDIAPI/EDIAPI.csproj": {}
+    "D:\\JOB\\econect\\api\\github\\ediapi\\EDIAPI\\EDIAPI.csproj": {}
   },
   "projects": {
-    "/Users/huy8bit/Desktop/DRIVE/JOB/econnect/api/upgit/EDIAPI/EDIAPI.csproj": {
+    "D:\\JOB\\econect\\api\\github\\ediapi\\EDIAPI\\EDIAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/huy8bit/Desktop/DRIVE/JOB/econnect/api/upgit/EDIAPI/EDIAPI.csproj",
+        "projectUniqueName": "D:\\JOB\\econect\\api\\github\\ediapi\\EDIAPI\\EDIAPI.csproj",
         "projectName": "EDIAPI",
-        "projectPath": "/Users/huy8bit/Desktop/DRIVE/JOB/econnect/api/upgit/EDIAPI/EDIAPI.csproj",
-        "packagesPath": "/Users/huy8bit/.nuget/packages/",
-        "outputPath": "/Users/huy8bit/Desktop/DRIVE/JOB/econnect/api/upgit/EDIAPI/obj/",
+        "projectPath": "D:\\JOB\\econect\\api\\github\\ediapi\\EDIAPI\\EDIAPI.csproj",
+        "packagesPath": "C:\\Users\\giahu\\.nuget\\packages\\",
+        "outputPath": "D:\\JOB\\econect\\api\\github\\ediapi\\EDIAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/huy8bit/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\giahu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,6 +54,10 @@
               "target": "Package",
               "version": "[12.20.0, )"
             },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Cross.EdiEngine": {
               "target": "Package",
               "version": "[1.6.1, )"
@@ -59,14 +69,32 @@
             "Microsoft.DotNet.ILCompiler": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.5, )",
+              "version": "[8.0.3, )",
               "autoReferenced": true
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.5, )",
+              "version": "[8.0.3, )",
               "autoReferenced": true
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.4.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -90,8 +118,8 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "runtime.osx-arm64.Microsoft.DotNet.ILCompiler",
-              "version": "[8.0.5, 8.0.5]"
+              "name": "runtime.win-x64.Microsoft.DotNet.ILCompiler",
+              "version": "[8.0.3, 8.0.3]"
             }
           ],
           "frameworkReferences": {
@@ -102,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

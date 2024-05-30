@@ -9,16 +9,30 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Azure.Storage.Blobs" Version="12.20.0" />
-    <PackageReference Include="Cross.EdiEngine" Version="1.6.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.5" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.1" />
-    <PackageReference Include="xEdi.EdiEngine" Version="1.6.0" />
+    <Compile Remove="File\**" />
+    <Compile Remove="uploads\**" />
+    <Content Remove="File\**" />
+    <Content Remove="uploads\**" />
+    <EmbeddedResource Remove="File\**" />
+    <EmbeddedResource Remove="uploads\**" />
+    <None Remove="File\**" />
+    <None Remove="uploads\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="File\" />
-    <Folder Include="uploads\" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.20.0" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Cross.EdiEngine" Version="1.6.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.6">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="MySql.Data" Version="8.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.1" />
+    <PackageReference Include="xEdi.EdiEngine" Version="1.6.0" />
   </ItemGroup>
 
 </Project>

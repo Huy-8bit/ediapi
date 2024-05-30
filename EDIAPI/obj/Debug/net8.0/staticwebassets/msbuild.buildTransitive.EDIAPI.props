@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../buildMultiTargeting/EDIAPI.props" />
+  <Import Project="..\buildMultiTargeting\EDIAPI.props" />
 </Project>
